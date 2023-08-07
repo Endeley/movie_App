@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Pop Flix Movies</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="nav-link">
+                <div class="logo">
+                    <a href="index.html">POP<span> FLIXX</span></a>
+                    <form action="index.html">
+                        <div class="search-flex">
+                            <input type="text" name="search-term" id="search-term" placeholder="Enter search term" />
+                            <button class="btn" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- slide container for movie slides -->
+        <section class="slider-containder">
+            <div class="slide-content">
+                <div class="card-wrapper">
+                    <div class="card-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="./image/slide1.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide3.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide4.jpeg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide5.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide6.webp" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide7.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide8.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide9.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <img src="./image/slide10.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="main-container">
+            <section class="nav-link">
+                <div class="logo">
+                    <a href="index.html">POP<span> FLIXX</span></a>
+                    <ul>
+                        <li><a href="/">MOVIES</a></li>
+                        <li><a href="/">TV SHOWS</a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- to return movie from api -->
+            <section class="movie-grid">
+                <div class="grid"></div>
+            </section>
+        </div>
+        <script src="./movieapp.js"></script>
+    </body>
+</html>
